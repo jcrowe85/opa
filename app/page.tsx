@@ -18,6 +18,9 @@ import bg1 from "/1.png";
 export default function Home() {
   return (
     <div className={styles.container}>
+      <nav className={styles.nav}>
+        <img src="/logo.png" alt="" />
+      </nav>
       <img src="/1.png" alt="Opa" />
       <img src="/2.png" alt="Opa" />
       <img src="/11.png" alt="Opa" />
@@ -28,8 +31,8 @@ export default function Home() {
       <img src="/6.png" alt="Opa" />
       <img src="/7.png" alt="Opa" />
       {/* <img src="/8.png" alt="Opa" /> */}
-      <img src="/9.png" alt="Opa" />
       <img src="/10.png" alt="Opa" />
+      <img src="/9.png" alt="Opa" />
     </div>
   );
 }
